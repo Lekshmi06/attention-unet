@@ -1,0 +1,21 @@
+# Ignore Python virtual environment folder
+venv/
+.venv/
+
+# Ignore IDE and OS-specific files
+.idea/
+.vscode/
+__pycache__/
+.DS_Store
+
+# Ignore the model
+src/attention_unet_best.keras
+
+
+# Ignore dataset files by extension
+*.csv
+*.json
+*.xlsx
+
+# Or ignore a specific dataset folder
+data/
